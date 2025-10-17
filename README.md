@@ -1,33 +1,57 @@
-# Bank Management Application
-Bank Management Application is a simple JavaFX application that demonstrates how to develop a CRUD (Create, Read, Update, Delete) operation application for managing bank accounts. It provides a user-friendly interface to perform basic banking operations such as creating new accounts, viewing account details, updating account information, and deleting accounts. The application utilizes MySQL as the database for storing and retrieving account data.
-
-![Bank Management Interface](https://user-images.githubusercontent.com/38884749/137014357-8ce5b500-86ea-49fd-a269-083d9b997855.png)
-
-## Features 🌟
-- 🏦 Create Account: Create new bank accounts.
-- 👀 View Account Details: Display account information, including bank name, account number, etc.
-- ✏️ Update Account: Modify the account information.
-- 🗑️ Delete Account: Remove an existing account from the system.
-
-## Prerequisites 📋
-Before running the Bank Management JavaFX Application, make sure you have the following prerequisites in place:
-
-* **Java Development Kit (JDK)**: Make sure you have JDK 8 or higher installed on your machine.
-
-* **JavaFX**: Since the Bank Management Application is built using JavaFX, you need to have JavaFX properly set up in your project. If you're using JDK 11 or later, JavaFX is no longer bundled with it. You can download JavaFX from the OpenJFX website and configure it based on your specific IDE or build tool.
-
-* **MySQL Database**: Install and set up a MySQL database server on your machine. Create a new database for the Bank Management Application and configure the necessary tables and columns for storing account information.
 
 
-## Getting Started 🚀
+# 💰 Transaction Management GUI
 
-To run the Media Player Application on your desktop, follow these steps:
+**Transaction Management GUI** is a desktop application built with **JavaFX** that allows users to manage and track banking transactions efficiently. It includes core financial operations such as adding new accounts, editing account information, viewing details, and removing accounts. The system connects to a **MySQL database** to securely store and manage all account data.
 
-1. Clone the repository: `git clone https://github.com/Youcefi/javafx-bank-management/` or download the repository to your local machine.
-2. Ensure that you have JavaFX properly set up in your project.
-3. Open the project in your preferred Java IDE (e.g., IntelliJ IDEA, Eclipse).
-4. Build the project to compile the source code and resolve dependencies.
+---
 
-## License 📄
+## ✨ Key Features
 
-This media player application is licensed under the [MIT License](LICENSE). Feel free to modify and distribute it according to your needs.
+* 🧾 **Add New Accounts** – Register and store new customer or account details easily.
+* 🔍 **View Account Information** – Access account details such as holder name, balance, and account type.
+* 🧮 **Update Account Records** – Edit and modify customer or account details.
+* 🗑️ **Delete Accounts** – Remove outdated or inactive records from the database.
+* 🖥️ **Clean JavaFX UI** – Simple and intuitive interface built for smooth navigation.
+
+---
+
+## ⚙️ Technologies Used
+
+* **JavaFX** – Frontend UI framework for building desktop applications.
+* **MySQL** – Database management for storing and retrieving account information.
+* **JDBC (Java Database Connectivity)** – Enables communication between the application and the MySQL database.
+* **JDK 8+** – Java Development Kit required to compile and run the application.
+
+---
+
+## 🧩 Setup Instructions
+
+Follow these steps to set up and run the Transaction Management GUI on your system:
+
+1. **Install JDK 8 or higher** on your machine.
+2. **Set up MySQL Database**:
+
+   * Create a new database (e.g., `transaction_db`).
+   * Add necessary tables for account and transaction data.
+3. **Configure Database Connection**:
+
+   * Open `application.properties` or connection class (depending on your setup).
+   * Set your MySQL credentials (username, password, database name).
+4. **Run the Project**:
+
+   * Open the project in **IntelliJ IDEA**, **Eclipse**, or your preferred IDE.
+   * Make sure **JavaFX libraries** are properly configured.
+   * Build and run the main class to launch the app.
+
+---
+
+## 🧠 About the Project
+
+This project demonstrates CRUD functionality in a real-world financial context. It serves as a learning example for developers exploring **JavaFX**, **database integration**, and **object-oriented application design**.
+
+---
+
+
+
+Would you like me to make it more **technical and formal** (like for a resume or portfolio project), or more **student-friendly** (simple, direct, and minimal)?
